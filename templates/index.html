@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Welcome to Flasky</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+	<link href="https://unpkg.com/tabulator-tables@4.7.2/dist/css/tabulator.min.css" rel="stylesheet">
+	<link href="{{ url_for('static', filename='tabulator/css/tabulator_modern.css')}}" rel="stylesheet">
+	
+</head>
+<body>
+	<h1>BHP Thunderstorm Scheduler</h1>
+	<div id="example-table"></div>
+	<div class="download">
+		<button class="download-button" onclick="downloadPDF()">Download PDF</button>
+		
+	</div>
+
+
+	<script type="text/javascript" src="https://oss.sheetjs.com/sheetjs/xlsx.full.min.js"></script>
+	<script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.7.2/dist/js/tabulator.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.0.10/jspdf.plugin.autotable.min.js"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+h1 {
+	margin-top: 40px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: darkgrey;
+}
+#example-table {
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	/*font-size: 14px;*/
+}
+
+.download-button {
+	text-align: center;
+	background-color: red;
+	padding: 20px;
+	font-size: 16px;
+	margin: 20px;
+}
+
+.download {
+	width: 200px;
+margin: auto
+}
